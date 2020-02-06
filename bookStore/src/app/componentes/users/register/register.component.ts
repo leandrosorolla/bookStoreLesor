@@ -43,7 +43,7 @@ export class RegisterComponent implements OnInit {
   }
 
   onAddUser() {
-    console.log('che culiado');
+
     this.authService
       .registerUser(this.email, this.password)
       .then(res => {
